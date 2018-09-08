@@ -12,10 +12,15 @@
      <h3>My Name is : {{ name }} and playlist is {{ playlist }} </h3>
      <p>{{ run('Test Parameter1','Test Parameter2') }}</p>
      <p>{{ valueAccess () }}</p>
-    </div>
+   </div>
+
+   <div id= "TestUrl">
+     <a v-bind:href="ulink"> {{ name }} </a>
+   </div>
 
     <script src="app.js"> </script>
     <script src="video-3.js"> </script>
+    <script src="v-bind example.js"> </script>
 
  </body>
 </html>
